@@ -1,0 +1,28 @@
+
+
+cars
+_____________________________________________________________________
+
+id - INT - UNSIGNED - PRIMARY_KEY(UNIQUE - NOT NULL) - AUTO_INCREMENT
+brand - VARCHAR(20) - NOT NULL
+model - VARCHAR(30) - NOT NULL
+year - YEAR - NOT NULL
+
+color - VARCHAR(20) - NOT NULL
+mileage - INT - UNSIGNED - NOT NULL
+transmission - VARCHAR(10) - NOT NULL
+fuel_type - VARCHAR(10) - NOT NULL
+cubic_capacity - FLOAT(3,1)
+horse_power - VARCHAR(5)
+doors_number - TINYINT - UNSIGNED
+number_of_seats - TINYINT - UNSIGNED
+max_speed - FLOAT(4,1)
+consumption - FLOAT(3,1) 
+
+condition - VARCHAR(20) 
+price - DECIMAL(10, 2) - NOT NULL
+discount - DECIMAL(6, 2)
+accessories - VARCHAR(100)
+available - TINYINT - DEFAULT(1)
+image - TEXT - DEFAULT("/assets/img/default_car.jpg") 
+
